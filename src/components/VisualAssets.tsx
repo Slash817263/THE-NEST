@@ -12,53 +12,66 @@ interface AssetProps {
 // Exactly matching the descriptions: canopy drapes, exposed timber beams, vessel sinks, baroque mirror, etc.
 export const DEFAULT_HOTEL_PHOTOS: Record<string, string> = {
   // 1. Cameră Queen superioară (Canopy & Hanging Wicker Swing)
-  'queen-superioara': 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=85',
-  'deluxe-canopy-swing': 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=85',
-  'bedroom_swing': 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=85',
-  'g1': 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=85',
-  'hero': 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=85',
+  'queen-superioara': '/images/queen-superioara.jpg',
+  'deluxe-canopy-swing': '/images/queen-superioara.jpg',
+  'bedroom_swing': '/images/queen-superioara.jpg',
+  'g1': '/images/queen-superioara.jpg',
+  'hero': '/images/queen-superioara.jpg',
 
   // 2. Cameră Dublă Deluxe (Exposed Timber Beams & White Rocking Chair)
-  'dubla-deluxe': 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=85',
-  'rustic-chic-suite': 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=85',
-  'bedroom_rocking': 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=85',
-  'g2': 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=85',
+  'dubla-deluxe': '/images/dubla-deluxe.jpg',
+  'rustic-chic-suite': '/images/dubla-deluxe.jpg',
+  'bedroom_rocking': '/images/dubla-deluxe.jpg',
+  'g2': '/images/dubla-deluxe.jpg',
 
   // 3. Luxury Vintage Bathroom with Vessel Sink & Gilded Baroque Mirror
-  'bathroom_vintage': 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=85',
-  'bai': 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=85',
-  'g3': 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=85',
+  'bathroom_vintage': '/images/bathroom_vintage.jpg',
+  'bai': '/images/bathroom_vintage.jpg',
+  'g3': '/images/bathroom_vintage.jpg',
 
   // 4. Rope-Suspended Media Console & Smart TV Area
-  'rope_tv_shelf': 'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=85',
-  'g4': 'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=85',
+  'rope_tv_shelf': '/images/rope_tv_shelf.jpg',
+  'g4': '/images/rope_tv_shelf.jpg',
 
   // 5. Classic Elegance Decor with Damask Wallpaper & Candelabra
-  'elegance-damask-room': 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=85',
-  'bedroom_damask': 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=85',
-  'g5': 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=85',
+  'elegance-damask-room': '/images/elegance-damask-room.jpg',
+  'bedroom_damask': '/images/elegance-damask-room.jpg',
+  'g5': '/images/elegance-damask-room.jpg',
 
   // 6. Ethnic Boho Decor with Woven Palm Fans & Cobalt Accents
-  'ethnic-boho-suite': 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=85',
-  'bedroom_blue': 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=85',
-  'g6': 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=85',
+  'ethnic-boho-suite': '/images/ethnic-boho-suite.jpg',
+  'bedroom_blue': '/images/ethnic-boho-suite.jpg',
+  'g6': '/images/ethnic-boho-suite.jpg',
 
   // 7. Hallway with Exposed Timber Beams & Persian Runner Rug
-  'hallway_beams': 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=85',
-  'holuri': 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=85',
-  'g7': 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=85',
+  'hallway_beams': '/images/hallway_beams.jpg',
+  'holuri': '/images/hallway_beams.jpg',
+  'g7': '/images/hallway_beams.jpg',
 
   // 8. Nespresso Coffee Station with Porcelain
-  'coffee_station': 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=85',
-  'g8': 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=85',
+  'coffee_station': '/images/coffee_station.jpg',
+  'g8': '/images/coffee_station.jpg',
 
   // 9. Brass Antique Door Handle & 'Please Knock' Plate
-  'door_sign': 'https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?auto=format&fit=crop&w=1200&q=85',
-  'g9': 'https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?auto=format&fit=crop&w=1200&q=85',
+  'door_sign': '/images/door_sign.jpg',
+  'g9': '/images/door_sign.jpg',
 
   // 10. Solid Timber Staircase with Botanical Art Frames
-  'stairs_gallery': 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=85',
-  'g10': 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=85'
+  'stairs_gallery': '/images/stairs_gallery.jpg',
+  'g10': '/images/stairs_gallery.jpg'
+};
+
+export const UNSPLASH_FALLBACK_PHOTOS: Record<string, string> = {
+  'queen-superioara': 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=85',
+  'dubla-deluxe': 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=85',
+  'bathroom_vintage': 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=85',
+  'rope_tv_shelf': 'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=85',
+  'elegance-damask-room': 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=85',
+  'ethnic-boho-suite': 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=85',
+  'hallway_beams': 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=85',
+  'coffee_station': 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=85',
+  'door_sign': 'https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?auto=format&fit=crop&w=1200&q=85',
+  'stairs_gallery': 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=85'
 };
 
 const slotDescriptions: Record<string, string> = {
@@ -120,26 +133,34 @@ export const VisualAsset: React.FC<AssetProps> = ({ type, className = '', title,
   const { photos } = useHotelImages();
   const imgRef = useRef<HTMLImageElement>(null);
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [hasError, setHasError] = useState(false);
   
   const slotId = normalizeSlotId(type);
-  // Priority: User's original uploaded image > Preloaded realistic photography (with backwards compatibility aliases)
-  const activeImageUrl = 
-    photos[slotId] || 
-    photos[type] || 
-    (slotId === 'queen-superioara' ? photos['deluxe-canopy-swing'] : undefined) ||
-    (slotId === 'dubla-deluxe' ? photos['rustic-chic-suite'] : undefined) ||
-    DEFAULT_HOTEL_PHOTOS[slotId] || 
-    DEFAULT_HOTEL_PHOTOS[type] || 
-    DEFAULT_HOTEL_PHOTOS['queen-superioara'];
+  const fallbackUrl = 
+    UNSPLASH_FALLBACK_PHOTOS[slotId] || 
+    UNSPLASH_FALLBACK_PHOTOS[type] || 
+    UNSPLASH_FALLBACK_PHOTOS['queen-superioara'];
+  
+  // 1. Image uploaded by user in browser session (data:image/...)
+  // 2. Physical static file saved in public/images/<slotId>.jpg
+  // 3. High-resolution fallback photo
+  const uploadedUrl = photos[slotId] || photos[type];
+  const staticFileUrl = `/images/${slotId}.jpg`;
+
+  const activeImageUrl = hasError
+    ? fallbackUrl
+    : (uploadedUrl || staticFileUrl);
+
   const description = slotDescriptions[type] || title || 'Fotografie The NEST Boutique Hotel';
 
   // Reset loaded status on image change & check cached completion
   useEffect(() => {
+    setHasError(false);
     setImageLoaded(false);
     if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) {
       setImageLoaded(true);
     }
-  }, [activeImageUrl]);
+  }, [slotId, uploadedUrl]);
 
   return (
     <div 
@@ -162,6 +183,11 @@ export const VisualAsset: React.FC<AssetProps> = ({ type, className = '', title,
         loading={priority ? 'eager' : 'lazy'}
         decoding="async"
         onLoad={() => setImageLoaded(true)}
+        onError={() => {
+          if (!hasError) {
+            setHasError(true);
+          }
+        }}
         className={`w-full h-full object-cover transition-all duration-700 ease-out group-hover:scale-103 ${
           imageLoaded 
             ? 'opacity-100 scale-100 filter-none' 

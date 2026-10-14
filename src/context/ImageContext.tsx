@@ -59,6 +59,19 @@ export const ImageProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       }
 
       setPhotos(updated);
+
+      // Auto-sync photos from browser IndexedDB to physical files in public/images/
+      if (Object.keys(updated).length > 0) {
+        try {
+          fetch('/api/sync-photos-to-disk', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ photos: updated })
+          }).catch(() => {});
+        } catch {
+          // ignore in static environments
+        }
+      }
     }).catch(console.error);
   }, []);
 
