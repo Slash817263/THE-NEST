@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    selection-background-color: rgba(197, 160, 89, 0.3);
+  }
+
+  ::selection {
+    background-color: rgba(197, 160, 89, 0.28);
+    color: #14100E;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+}
+
+/* Luxury hairline borders & subtle shadows (C9.1 & C9.2) */
+.border-hairline {
+  border-width: 1px;
+  border-color: rgba(31, 26, 23, 0.08);
+}
+
+.border-hairline-gold {
+  border-width: 1px;
+  border-color: rgba(197, 160, 89, 0.3);
+}
+
+/* Custom scrollbar with limestone and warm brass tones */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9D0C3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}
+
+/* Smooth modal fadeIn animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
